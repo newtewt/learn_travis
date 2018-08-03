@@ -4,7 +4,7 @@ matrix:
       python: 2.7
       script:
         - python learn.py
-    - language: android
-      jdk: oraclejdk
+    - language: java
+      jdk: oraclejdk8
       script:
         -  node index.js
