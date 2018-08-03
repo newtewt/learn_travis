@@ -1,0 +1,10 @@
+matrix:
+  include:
+    - language: python
+      python: 2.7
+      script:
+        - python learn.py
+    - language: android
+      jdk: oraclejdk
+      script:
+        -  node index.js
